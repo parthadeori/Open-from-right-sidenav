@@ -1,0 +1,40 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden; /* nice property */
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block; /* block changes horizontal to vertical */
+  padding: 8px 8px 8px 32px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+}
+
+.open {
+  display: flex;
+  float: right;
+}
